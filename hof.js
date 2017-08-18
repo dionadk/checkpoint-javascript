@@ -16,7 +16,7 @@ var robj={}
   return robj;
 
 });
-console.log(peoplesAges);
+  console.log(peoplesAges);
 
 
 
