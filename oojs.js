@@ -25,12 +25,12 @@ class Playlist{
 // Type your solution immediately below this line:
 
 var myPlaylist = new Playlist("titlesong");
-addSong.myPlaylist;
+myPlaylist.addSong();
 
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Playlist !== 'undefined') {
   module.exports = {
-    Playlist
+    Playlist}
   }
