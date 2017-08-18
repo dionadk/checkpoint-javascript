@@ -10,6 +10,14 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peoplesAges`.
 // Type your solution immediately below this line:
+var peoplesAges = people.map(function(people){
+var robj={}
+  robj[people.name] = people.age;
+  return robj;
+
+});
+console.log(peoplesAges);
+
 
 
 
@@ -18,3 +26,9 @@ var people = [
 // persons from the `people` array who are older than 35. Assign the returned array
 // to a variable called `peopleOlderThan35`.
 // Type your solution immediately below this line:
+
+
+var peopleOlderThan35 = people.filter(function (el) {
+    return (el.age > 35);
+});
+console.log(peopleOlderThan35);
